@@ -49,7 +49,7 @@ Click the button to change the light state or click the microphone icon to use v
 
 <img src="img/img01.png" width="80%" title="Control Panel">
 
-<img src="img/img02.png" width="65%" title="Control Panel">
+<img src="img/img02.png" width="80%" title="Control Panel">
 
 ## Credits
 

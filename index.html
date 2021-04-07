@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet de las cosas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="div-contenedor">
+        <div class="div-encabezado">
+            <h2 class="h2-encabezado">Control De Luz Para Habitaciones</h2>
+            <div id="boton-microfono" class="div-microfono">
+                <img src="img/microfono.svg" alt="microfono">
+            </div>
+            <div class="div-comandos">
+                <h4 class="h4-encabezado">Comandos por voz:</h4>
+                <span class="span-comando">"habitación (uno, dos, tres, cuatro) encender luz"</span>
+                <span class="span-comando">"habitación (uno, dos, tres, cuatro) apagar luz"</span>
+            </div>
+        </div>
+        <div class="div-casa">
+            <div class="div-planta">
+                <div class="div-panel-control">
+                    <div class="div-habitacion">
+                        <img id="img-pinD0" class="img-habitacion" src="img/habitacion01.jpg" alt="">
+                    </div>
+                    <div class="div-control">
+                        <input id="boton-pinD0" class="button-modificar-luz" type="button" value="Esperando">
+                    </div>
+                </div>
+                <div class="div-panel-control">
+                    <div class="div-habitacion">
+                        <img id="img-pinD1" class="img-habitacion" src="img/habitacion02.jpg" alt="">
+                    </div>
+                    <div class="div-control">
+                        <input id="boton-pinD1" class="button-modificar-luz" type="button" value="Esperando">
+                    </div>
+                </div>
+            </div>
+            <div class="div-planta">
+                <div class="div-panel-control">
+                    <div class="div-habitacion">
+                        <img id="img-pinD2" class="img-habitacion" src="img/habitacion03.jpg" alt="">
+                    </div>
+                    <div class="div-control">
+                        <input id="boton-pinD2" class="button-modificar-luz" type="button" value="Esperando">
+                    </div>
+                </div>
+                <div class="div-panel-control">
+                    <div class="div-habitacion">
+                        <img id="img-pinD3" class="img-habitacion" src="img/habitacion04.jpg" alt="">
+                    </div>
+                    <div class="div-control">
+                        <input id="boton-pinD3" class="button-modificar-luz" type="button" value="Esperando">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/mqttws31.js"></script>
+    <script src="js/config_conex_broker_mqtt.js"></script>
+    <script src="js/control_luz_habitacion.js"></script>
+    <script src="js/reconocimiento_voz.js"></script>
+</body>
+</html>
+

@@ -36,7 +36,7 @@ pip3 install paho-mqtt
     git clone https://github.com/oscarbmo01/bar-chart-js-css-html-json.git``
 ```
 
-2. Open the emunodemcu.py file
+2. Run the emunodemcu.py file
 ```sh
 python3 emulathor-nodemcu/emonodemcu.py
 ```
@@ -47,9 +47,13 @@ python3 emulathor-nodemcu/emonodemcu.py
 
 Click the button to change the light state or click the microphone icon to use voice command.
 
-<img src="img/img01.png" width="60%" title="Control Panel">
+<img src="img/img01.png" width="80%" title="Control Panel">
 
 <img src="img/img02.png" width="65%" title="Control Panel">
+
+## Credits
+
+Eclipse Foundation https://www.eclipse.org/paho/
 
 ## Licence
 
